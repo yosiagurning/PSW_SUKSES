@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="CSS_About.css">
 </head>
+
 <body>
     <header>
-        
+        <html lang="en">
+        <button class="burger" onclick="toggleMenu()">
+        </button>
+        <div class="menu">
+            <div></div>
+            <div style="transition-delay: 0.1s"></div>
+            <div style="transition-delay: 0.2s"></div>
+            <div style="transition-delay: 0.35"></div>
+            <div style="transition-delay: 0.4s"></div>
+            <ul>
+                <li style="animation-delay: 0.45">
+                    <a href="#home">About</a>
+                </li>
+                <li style="animation-delay: 0.55">
+                    <a href="#home">Services</a>
+                </li>
+                <li style="animation-delay: 0.65"> <a href="#home">Products</a>
+                </li>
+                <li style="animation-delay: 0.75">
+                    <a href="#home">Contact</a>
+                </li>
+                <li style="animation-delay: 0.85">
+                    <a href="About us">About Developer</a>
+                </li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            const toggleMenu = () => document.body.classList.toggle("open");
+        </script>
+
+        </html>
     </header>
 </body>
+
 </html>
